@@ -6,7 +6,7 @@
 /*   By: noabdull <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/18 11:24:19 by noabdull          #+#    #+#             */
-/*   Updated: 2021/08/18 21:49:32 by noabdull         ###   ########.fr       */
+/*   Updated: 2021/08/18 23:39:14 by noabdull         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strcapitalize(char *str)
 	j = 1;
 	while (str[i] != '\0')
 	{
-		if ((str[i] >= 'a' && str[i] < 'z')
+		if ((str[i] >= 'a' && str[i] <= 'z')
 			|| (str[i] >= 'A' && str[i] <= 'Z')
 			|| (str[i] >= '0' && str[i] <= '9'))
 		{

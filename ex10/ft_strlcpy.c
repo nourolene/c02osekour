@@ -6,7 +6,7 @@
 /*   By: noabdull <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/18 11:49:22 by noabdull          #+#    #+#             */
-/*   Updated: 2021/08/18 14:57:09 by noabdull         ###   ########.fr       */
+/*   Updated: 2021/08/18 21:32:08 by noabdull         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)

@@ -6,7 +6,7 @@
 /*   By: noabdull <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/18 11:24:19 by noabdull          #+#    #+#             */
-/*   Updated: 2021/08/18 16:10:30 by noabdull         ###   ########.fr       */
+/*   Updated: 2021/08/18 21:49:32 by noabdull         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,9 @@ char	*ft_strcapitalize(char *str)
 	}
 	return (str);
 }
+/*int main ()
+{
+	char str[] = "Sa7lut, commMent tu vas ? 42mots quarante-deux; cinquante+et+un";
+
+		printf("%s", ft_strcapitalize(str));
+}*/
